@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolutions", "LeetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{FCF63C05-5708-4D3C-888A-87EFE89468FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureConsoleTests", "DataStructureConsoleTests\DataStructureConsoleTests.csproj", "{2C152C08-B22B-4E6F-B511-74811ABB4A2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FCF63C05-5708-4D3C-888A-87EFE89468FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF63C05-5708-4D3C-888A-87EFE89468FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF63C05-5708-4D3C-888A-87EFE89468FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C152C08-B22B-4E6F-B511-74811ABB4A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C152C08-B22B-4E6F-B511-74811ABB4A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C152C08-B22B-4E6F-B511-74811ABB4A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C152C08-B22B-4E6F-B511-74811ABB4A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
