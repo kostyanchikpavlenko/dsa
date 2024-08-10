@@ -5,6 +5,8 @@
 /// Space complexity: 0(n)
 /// Runtime: 60ms
 /// Memory: 39.56 MB
+/// Solution pattern: Dictionary
+/// Level: Easy
 /// </summary>
 public class ValidParentheses
 {
