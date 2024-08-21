@@ -2,6 +2,15 @@
 
 namespace LeetCodeSolutions.Strings;
 
+/// <summary>
+/// Runtime complexity: 0(n)
+/// Space complexity: 0(1) Stack - O(n)
+/// Runtime: 62ms
+/// Memory: 44.22 MB
+/// Solution pattern: Stack or Two Pointers
+/// Level: Easy
+/// </summary>
+
 public class IsPalindrom
 {
    public bool SolveByStack(string input) {
