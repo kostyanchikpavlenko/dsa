@@ -1,5 +1,15 @@
 ﻿namespace LeetCodeSolutions.Arrays;
 
+/// <summary>
+/// Runtime complexity: 0(n)
+/// Space complexity: 0(n)
+/// Runtime: 262ms
+/// Memory: 68.01 MB
+/// Solution pattern: HashSet or Sorting
+/// Level: Easy
+/// </summary>
+
+
 public class ContainsDuplicate
 {
     public bool Solve(int[] nums) {
