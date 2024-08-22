@@ -2,18 +2,17 @@
 
 /// <summary>
 /// Runtime complexity: 0(n)
-/// Space complexity: 0(1)
+/// Space complexity: Sliding from the right - 0(1); Trim().Split().Last.Length 0(n)
 /// Runtime: 58ms
 /// Memory: 38.17 MB
-/// Solution pattern: Sliding from the right
+/// Solution pattern: Sliding from the right or Trim().Split().Last.Length
 /// Level: Easy
 /// </summary>
 
 public class LengthOfLastWord
 {
-    public int Solve(string s)
+    public int SolveBySlidingFromTheRight(string s)
     {
-
         if (s.Length is 1 && char.IsLetterOrDigit(s[0]))
         {
             return s.Length;
@@ -34,5 +33,20 @@ public class LengthOfLastWord
         }
 
         return lastWordLength;
+    }
+    
+    public int SolveBySplitting(string s)
+    {
+        if (s.Length is 1 && char.IsLetterOrDigit(s[0]))
+        {
+            return s.Length;
+        }
+
+        if (string.IsNullOrWhiteSpace(s))
+        {
+            return 0;
+        }
+
+        return s.Trim().Split(' ').Last().Length;
     }
 }
