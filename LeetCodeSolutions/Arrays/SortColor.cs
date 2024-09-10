@@ -1,5 +1,14 @@
 ﻿namespace LeetCodeSolutions.Arrays;
 
+/// <summary>
+/// Runtime complexity: 0(n)
+/// Space complexity: 0(1)
+/// Runtime: 103ms
+/// Memory: 44.94 MB
+/// Solution pattern: Bucket array to count colors from input
+/// Level: Medium
+/// </summary>
+
 public class SortColor
 {
    public void SortColors(int[] nums) 
